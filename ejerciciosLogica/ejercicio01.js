@@ -8,6 +8,5 @@ const next_Pal=(numero) => {
     }
     return numero;
     }
-
 let numero = 2546;
 console.log("Next palindrome to",numero,":",next_Pal(numero));

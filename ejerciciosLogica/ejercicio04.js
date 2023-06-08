@@ -1,5 +1,4 @@
 /*Defino la función FizzBuzz para determinar los mpultiplos de 3 o 5*/
-
 const fizzBuzz=(numero) => {
     for (let i=1; i<=numero;i++){
         if (i%3==0 && i%5==0) {
@@ -13,6 +12,5 @@ const fizzBuzz=(numero) => {
         }
     }
 }
-
 let numero = 45;
 fizzBuzz(numero);
